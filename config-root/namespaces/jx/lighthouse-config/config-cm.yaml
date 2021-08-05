@@ -41,7 +41,7 @@ data:
         - needs-rebase
         repos:
         - testdrive-11/jenkinsx-test
-      target_url: http://lighthouse-jx./merge/status
+      target_url: http://lighthouse-jx.20.84.24.160.nip.io/merge/status
 kind: ConfigMap
 metadata:
   creationTimestamp: null
