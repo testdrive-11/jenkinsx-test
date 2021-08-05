@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: narenarjun
+    provider: github
+    repository: testdrive-user
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: narenarjun-testdrive-user
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/narenarjun/testdrive-user.git
+  org: narenarjun
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: testdrive-user
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/narenarjun/testdrive-user
